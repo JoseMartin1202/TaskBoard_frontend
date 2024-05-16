@@ -3,9 +3,14 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <div>
-      Hola
-    </div>
+    <>
+      <a href="#hola">
+        Hola
+      </a>
+      <div id="hola">
+        div hola
+      </div>
+    </>
   )
 }
 
